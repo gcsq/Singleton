@@ -1,0 +1,18 @@
+# Singleton
+public class Impressora {
+private static Impressora imprime;
+public static Impressora getInstance(){
+if(imprime == null){
+imprime = new Impressora();
+}
+return imprime;
+}
+public void imprime_documento(){
+}
+public void remove_documento(){
+}
+public void remove_todos_documento(){
+}
+private Impressora(){
+}
+}
